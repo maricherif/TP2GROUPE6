@@ -3,28 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>FORMULAIRE</title>
+    <link rel="stylesheet" href="tp2.css">
 </head>
 <body>
-    <form method="POST" action="traitement.php">
-        <span><u>contact </u></span>
-        <legend>Nom complet</legend> <!-- partie nom prénom -->
-        <label for="nom">nom :</label>
+    <form method="POST">
+        <legend class="ma"><u>CONCTACT</u></legend><br>
+        <label for="nom">Nom :</label>
         <input type="text" id="nom"><br>
         
-        <label for="prenom">prénom :</label>
+        <label for="prenom">Prénom :</label>
         <input type="text" id="prenom"><br>
     
-        <label for="telephone">telephone :</label>
+        <label for="telephone">Telephone :</label>
         <input type="numero" id="numero"><br>
-        <label for="email"> e-mail :</label>
+
+        <label for="email"> E-mail :</label>
         <input type="text" id="email">
-        <legend>Sexe</legend> <!-- partie sexe -->
-        <input type="radio" name="homme" value="homme">
-        <label for="homme"> Homme </label><br>
-        <input type="radio" name="femme" value="femme">
-        <label for="femme"> Femme </label><br>
+
+        <legend> A propos</legend>
+        <textarea name="nom zone texte"></textarea><br>
     
-        <button>envoyer</button>
+        <button class="ma">envoyer</button>
+
         </fieldset>
        
     </form>
