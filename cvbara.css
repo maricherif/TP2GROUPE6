@@ -1,0 +1,85 @@
+ 
+@media screen {
+	html,
+	body { display: block;
+
+		margin: .40em 1%;
+		
+		font-family: Arial, Helvetica, sans-serif;
+	
+	}
+
+	body>header {
+		font-size: 3em;
+		font-weight: bold;
+		color: blue;
+		margin-bottom: 1em;
+		
+	}
+	
+	#formation>header,
+	#expe>header {
+		font-size: 2em;
+		
+		margin: 0.625em0px;
+		
+		padding: 0.7%;
+		
+		font-weight: bold;
+		color: white;
+		background-color: blue;
+    }
+	
+	#formation table th {
+		text-align: left;
+		font-size: 1.2em;
+	}
+	
+	#formation table tr:nth-child(2n) td {
+		padding-bottom: 1em;
+		
+	}
+
+	
+	#civil>img {
+		display: block;
+		width: 40%;
+		margin: auto;
+		border: 3px solid white;
+		border-radius: 5px;
+        
+	}
+	
+	#civil p {
+		margin: 0.3em 0px;
+		
+	}
+    
+
+	#expe h1 {
+		font-size: 1.2em;
+		background-color: #11b7ee;
+		font-weight: normal;
+	}
+	
+	#expe h1 span:first-of-type {
+		display: inline-block;
+		
+		word-wrap: break-word;
+		width: 40%;
+		
+	}
+	#expe ul {
+		margin-left: 13%;
+		
+	}
+	
+	#divers>h2 {
+		background-color: white;
+		color: blue;
+		padding: 2%;
+	}
+	#divers ul {
+		list-style: none;
+		padding-left: 0px;
+	}
