@@ -1,6 +1,7 @@
 body{
     background-color: #f9f9f9;
 }
+/* entête*/
 .div_entête{
     display: flex;
     gap: 50px;
@@ -23,7 +24,7 @@ body{
     margin-left: 10px;
 
 } 
-.bouton:hover a{
+.bouton:hover a select{
     color: black;
     transition: 0.5s;
 }
@@ -32,16 +33,43 @@ a{
     color: blue;
     padding: 10px;
 }
+.select_cv{
+    border: 0; /* pour enlever la bordure de la balise select */
+    font-size: 30px;
+    color:blue;
+}
 .div_barre_recherche{
 margin-top: 40px;
 margin-left: 50px;
 font-size: 20px;
 }
+/* CV Aicha*/
+#div_cv_Aicha{
+    width: 70%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #eff1f1 ;
+    margin-left: 200px;
+}
+.sous_div_cv_Aicha{
+    width: 50%;
+}
+.img_Aicha1{
+    width: 200px;
+    height: 200px;
+}
+th,td{
+border: 2px solid black;
+}
+
+
+/* pied de page*/
 .div_footer{
    display: flex;
    flex-wrap: wrap;
    gap: 100px;
-   background-color: rgb(149, 149, 250);
+   background-color:#ecf3f3   ;
    padding: 10px;
 }
 .logo_footer{
