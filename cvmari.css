@@ -1,0 +1,92 @@
+
+#page {
+    width: 70%;
+    height: auto;
+    background: whitesmoke;
+    margin: 50px auto;
+    padding: 100px;
+    padding-top: 0;
+    color: #27aae1;
+}
+
+#header {
+    display: flex;
+}
+
+
+.photo {
+    width: 200px;
+    height: 300px;
+    float: left;
+    margin-right:10px;
+    margin-top: 20px;
+}
+
+.contact {
+    width: 70.9%;
+    display: inline-block;
+    font-size: 35px;
+}
+.metier{
+    display: inline-block;
+    width: 100%;
+}
+.photo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.contact-details {
+    background: #27aae1;
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+    padding: 5px;
+    font-size: 20px;
+}
+#profil h3{
+    color: #27aae1;
+}
+#profil{
+    font-size: 25px;
+    border: 1px solid #d3d3d3;
+    padding: 5px;
+    margin: 30px 0 10px;
+    color: #000;
+}
+
+#education h3{
+    color: #27aae1;
+}
+#education {
+    font-size: 25px;
+    border: 1px solid #d3d3d3;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 30px 0 10px;
+    color: #000;
+}
+#header2{
+    display: flex;
+}
+#competence h3{
+    color: #27aae1;
+    font-size: 25px;
+}
+#competence table{
+    color:black;
+    font-size: 25px;
+    }
+
+#bio{
+    color: #000;
+    float: right;
+    font-size: 25px;
+    margin-top: 70px;
+}
+ul{
+    font-size: 25px;
+    color: #000;
+}
