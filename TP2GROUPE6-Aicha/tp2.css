@@ -1,0 +1,198 @@
+body{
+    background-color: #ddc7c7;
+}
+/* entête*/
+.div_entête{
+    display: flex;
+    gap: 50px;
+    margin-left: 50px;
+ }
+
+ .img_logo{
+    width: 200px;
+    height: 80px;
+    margin-top: 18px;
+} 
+
+.bouton{
+    list-style-type: none; /* pour supprimer les puces de la liste */
+    display: inline-block;  /* pour aligner les boutons horizontalement */
+    width: 150px;
+    height: 80px;
+    font-size: 30px;
+    padding-top: 20px;
+    margin-left: 10px;
+
+} 
+.bouton:hover a select{
+    color: black;
+    transition: 0.5s;
+}
+a{
+    text-decoration: none; /*pour enlever les texte soulignés des bouton*/
+    color: blue;
+    padding: 10px;
+}
+.select_cv{
+    border: 0; /* pour enlever la bordure de la balise select */
+    font-size: 30px;
+    color:blue;
+}
+.div_barre_recherche{
+margin-top: 40px;
+margin-left: 50px;
+font-size: 20px;
+}
+/* CV Aicha*/
+#div_cv_Aicha{
+    width: 70%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #eff1f1 ;
+    margin-left: 200px;
+}
+.sous_div_cv_Aicha{
+    width: 50%;
+}
+.img_Aicha1{
+    width: 200px;
+    height: 200px;
+}
+th,td{
+border: 2px solid black;
+}
+
+/* CV mariéme*/
+#page {
+    width: 70%;
+    height: auto;
+    background: whitesmoke;
+    margin: 50px auto;
+    padding: 100px;
+    padding-top: 0;
+    color: #27aae1;
+}
+
+#header {
+    display: flex;
+}
+
+
+.photo {
+    width: 200px;
+    height: 300px;
+    float: left;
+    margin-right:10px;
+    margin-top: 20px;
+}
+
+.contact {
+    width: 70.9%;
+    display: inline-block;
+    font-size: 35px;
+}
+.metier{
+    display: inline-block;
+    width: 100%;
+}
+.photo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.contact-details {
+    background: #27aae1;
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+    padding: 5px;
+    font-size: 20px;
+}
+#profil h3{
+    color: #27aae1;
+}
+#profil{
+    font-size: 25px;
+    border: 1px solid #d3d3d3;
+    padding: 5px;
+    margin: 30px 0 10px;
+    color: #000;
+}
+
+#education h3{
+    color: #27aae1;
+}
+#education {
+    font-size: 25px;
+    border: 1px solid #d3d3d3;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 30px 0 10px;
+    color: #000;
+}
+#header2{
+    display: flex;
+}
+#competence h3{
+    color: #27aae1;
+    font-size: 25px;
+}
+#competence table{
+    color:black;
+    font-size: 25px;
+    }
+
+#bio{
+    color: #000;
+    float: right;
+    font-size: 25px;
+    margin-top: 70px;
+}
+ul{
+    font-size: 25px;
+    color: #000;
+}
+
+
+/*formulaire de contacte*/
+.div_form{
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.ma{
+    color: blue;
+    font-size: 20px;
+    margin-top: 35px;
+    color: blue;
+}
+.input_form{
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    width: 100%;
+    
+}
+
+
+/* pied de page*/
+.div_footer{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 100px;
+   background-color:#ecf3f3;
+   padding: 10px;
+
+}
+.logo_footer{
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 20px 100px;
+
+}
