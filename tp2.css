@@ -12,6 +12,7 @@ body{
     width: 200px;
     height: 80px;
     margin-top: 18px;
+    border-radius: 30px;
 } 
 
 .bouton{

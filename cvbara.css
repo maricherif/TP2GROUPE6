@@ -1,0 +1,69 @@
+/* html{
+    background-color: rgb(162, 120, 61);
+}
+body{ background-color:#519ad6 (215, 219, 220, 0.663);
+    display: flex;
+    border: solid;
+    border-color: black;
+    
+
+} */
+#formation {
+    background-color: rgb(146, 120, 89);
+    text-align: center;
+}
+.img_bara{
+    height: 200;
+    width: 200;
+    border: solid;
+}
+tbody{ height: 400;
+
+}
+#form {  background-color: rgb(146, 120, 89);
+
+}
+#cat { background-color: rgb(156, 125, 47);
+
+}
+#infor{ background-color: rgb(186, 144, 60);
+
+}
+
+#ld{
+    background-color: rgb(162, 120, 61);
+}
+header {
+    background-color: #90887b;
+    height: 40;
+    text-decoration-color: rgb(42, 42, 44);
+    text-align: center;
+border-bottom: solid;
+
+}
+
+
+#ct{
+    height: 430;
+}
+#civil{
+    background-color: rgba(148, 112, 28, 0.721);
+    background-color:#519ad6 (215, 219, 220, 0.663);
+    display: flex;
+    border: solid;
+    border-color: black;
+}
+#expe {
+    background-color: rgb(156, 125, 47);
+    border-bottom: solid;
+    height: 614;
+}
+#divers,#info{
+    
+    background-color: rgb(186, 144, 60);
+}
+#lang { 
+    background-color: rgb(162, 120, 61);
+    height: 553;
+}
+
