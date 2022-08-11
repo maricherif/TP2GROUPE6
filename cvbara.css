@@ -1,4 +1,4 @@
-/* html{
+html{
     background-color: rgb(162, 120, 61);
 }
 body{ background-color:#519ad6 (215, 219, 220, 0.663);
@@ -7,7 +7,7 @@ body{ background-color:#519ad6 (215, 219, 220, 0.663);
     border-color: black;
     
 
-} */
+}
 #formation {
     background-color: rgb(146, 120, 89);
     text-align: center;
@@ -48,11 +48,11 @@ border-bottom: solid;
 }
 #civil{
     background-color: rgba(148, 112, 28, 0.721);
-    background-color:#519ad6 (215, 219, 220, 0.663);
+    /* background-color:#519ad6 (215, 219, 220, 0.663);
     display: flex;
     border: solid;
-    border-color: black;
-}
+    border-color: black;*/
+} 
 #expe {
     background-color: rgb(156, 125, 47);
     border-bottom: solid;
