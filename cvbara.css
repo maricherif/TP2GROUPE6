@@ -1,85 +1,65 @@
- 
-@media screen {
-	html,
-	body { display: block;
-
-		margin: .40em 1%;
-		
-		font-family: Arial, Helvetica, sans-serif;
-	
-	}
-
-	body>header {
-		font-size: 3em;
-		font-weight: bold;
-		color: blue;
-		margin-bottom: 1em;
-		
-	}
-	
-	#formation>header,
-	#expe>header {
-		font-size: 2em;
-		
-		margin: 0.625em0px;
-		
-		padding: 0.7%;
-		
-		font-weight: bold;
-		color: white;
-		background-color: blue;
-    }
-	
-	#formation table th {
-		text-align: left;
-		font-size: 1.2em;
-	}
-	
-	#formation table tr:nth-child(2n) td {
-		padding-bottom: 1em;
-		
-	}
-
-	
-	#civil>img {
-		display: block;
-		width: 40%;
-		margin: auto;
-		border: 3px solid white;
-		border-radius: 5px;
-        
-	}
-	
-	#civil p {
-		margin: 0.3em 0px;
-		
-	}
+html{
+    background-color: rgb(162, 120, 61);
+}
+body{ background-color:#519ad6 (215, 219, 220, 0.663);
+    display: flex;
+    border: solid;
+    border-color: black;
     
 
-	#expe h1 {
-		font-size: 1.2em;
-		background-color: #11b7ee;
-		font-weight: normal;
-	}
-	
-	#expe h1 span:first-of-type {
-		display: inline-block;
-		
-		word-wrap: break-word;
-		width: 40%;
-		
-	}
-	#expe ul {
-		margin-left: 13%;
-		
-	}
-	
-	#divers>h2 {
-		background-color: white;
-		color: blue;
-		padding: 2%;
-	}
-	#divers ul {
-		list-style: none;
-		padding-left: 0px;
-	}
+}
+#formation {
+    background-color: rgb(146, 120, 89);
+    text-align: center;
+}
+img{
+    height: 200;
+    width: 200;
+    border: solid;
+}
+tbody{ height: 400;
+
+}
+#form {  background-color: rgb(146, 120, 89);
+
+}
+#cat { background-color: rgb(156, 125, 47);
+
+}
+#infor{ background-color: rgb(186, 144, 60);
+
+}
+
+#ld{
+    background-color: rgb(162, 120, 61);
+}
+header {
+    background-color: #90887b;
+    height: 40;
+    text-decoration-color: rgb(42, 42, 44);
+    text-align: center;
+border-bottom: solid;
+
+}
+
+
+#ct{
+    height: 430;
+}
+#civil{
+    background-color: rgba(148, 112, 28, 0.721);
+}
+#expe {
+    background-color: rgb(156, 125, 47);
+    border-bottom: solid;
+    height: 614;
+}
+#divers,#info{
+    
+    background-color: rgb(186, 144, 60);
+}
+#lang { 
+    background-color: rgb(162, 120, 61);
+    height: 553;
+}
+
