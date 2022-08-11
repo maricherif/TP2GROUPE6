@@ -8,6 +8,93 @@ body{
     margin-left: 50px;
  }
 
+.sectParent{
+    display: flex;
+    height: 850px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    width: 100%;
+    background-color: transparent;
+    margin: 2px 2px 2px 2px;
+}
+.presentation
+{
+  border: 1px solid transparent;
+  float: left;
+  width: 27%;
+  margin-left:8px;
+  margin-top:10px;
+  padding-left: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 810px;
+  background-color: #083B32;
+}
+.presentation {
+  color: white;
+}
+
+.presentationG
+{
+    display: block;
+  border: 1px solid transparent;
+  float: left;
+  width: 68.5%;
+  margin-left:10px;
+  margin-top:10px;
+  padding-left: 10px;
+  padding-left: 6px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  height: 832px;
+  background: transparent;
+}
+
+.section
+{
+  
+  display: flex;
+  justify-content:space-between;
+  padding: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 15px;
+  width: 94.7%;
+  margin:0rem auto 0 auto;
+  margin-left:1px;
+  background: #083B32;
+  height: 180px;
+  margin-bottom: 10px;
+}
+
+.section img
+{
+ height: 170px;
+ width: 310px;
+ border-radius: 115px;
+}
+.section h1
+{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: underline;
+    
+}
+
+.section p
+{
+  margin-right: 10px;
+  color: white;
+    font-size: 12px;
+    font-style: normal;
+    
+}
+
+
+
  .img_logo{
     width: 200px;
     height: 80px;
