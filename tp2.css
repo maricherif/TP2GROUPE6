@@ -1,100 +1,158 @@
-html{
+html {
     background-color: #e7b512;
 }
-body{
+
+body {
     width: 100%;
-    padding :0%;
-    margin:0%;
+    padding: 0%;
+    margin: 0%;
 }
 
 /* entête*/
-header{
+header {
     width: 100%;
     height: 70px;
     display: flex;
     gap: 30px;
-    background-color:black    ;
-    padding-top :0%;
-    margin-top :0%;
- }
+    background-color: black;
+    padding-top: 0%;
+    margin-top: 0%;
 
- .img_logo{
+}
+
+.img_logo {
     width: 100px;
     height: 50px;
     margin-top: 20px;
     border-radius: 10px;
-} 
+}
 
-.bouton{
+.bouton {
     width: 200px;
     height: 50px;
     padding-top: 0%;
-    display: inline-block;  /* pour aligner les boutons horizontalement */
+    display: inline-block;
+    /* pour aligner les boutons horizontalement */
     font-size: 30px;
-    margin-inline-start: 0px; 
+    margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-end: 30px;
-    
-     } 
-.bouton:hover{
-      transition: 0.5s;
+}
+
+.bouton:hover {
+    transition: 0.5s;
     background-color: #e7b512;
 }
-a{
-    text-decoration: none; /*pour enlever les texte soulignés des bouton*/
+
+a {
+    text-decoration: none;
+    /*pour enlever les texte soulignés des bouton*/
     color: white;
     margin-top: 30px;
-   }
-.select_cv{
-    border: 0; /* pour enlever la bordure de la balise select */
-    font-size: 30px;
-    color:white;
+}
+
+.select_cv {
+    border: 0;
+    /* pour enlever la bordure de la balise select */
+    font-size: 25px;
+    color: white;
     background-color: black;
 
 }
-.select_cv:hover{
+
+.select_cv:hover {
     transition: 0.5s;
-  background-color: #e7b512;
+    background-color: #e7b512;
 }
 
+
+/*main accueil*/
+.presentation {
+    float: left;
+    width: 27%;
+    padding-left: 10px;
+    padding-top: 100px;
+    margin: 80px 50px;
+    height: 300px;
+    background-color: #c79c0f;
+    border-radius: 10px;
+}
+
+.presentationG {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    padding-left: 10px;
+    margin: 60px;
+    background-color: #c79c0f;
+    border-radius: 10px;
+}
+
+.membre {
+    width: 44%;
+    height: 180px;
+    display: flex;
+    background-color: #a3800d;
+    border-radius: 10px;
+    margin: 20px 20px;
+}
+
+.membre img {
+    width: 40%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.membre p {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
 /* CV Aicha*/
-#div_cv_Aicha{
+#div_cv_Aicha {
     width: 60%;
     height: 80%;
     display: flex;
     flex-wrap: wrap;
-    background-color: #eff1f1 ;
+    background-color: #eff1f1;
     margin: 20px 250px;
     border-radius: 10px;
 }
 
-.sous_div_cv_Aicha{
+.sous_div_cv_Aicha {
     width: 700px;
     margin: 20px 30px;
     text-align: center;
 
 }
-.sous_div_cv_Aicha1{
+
+.sous_div_cv_Aicha1 {
     width: 700px;
-    display:inline-flex;
+    display: inline-flex;
     gap: 30px;
     margin: 20px 30px;
 }
 
-.img_Aicha1{
+.img_Aicha1 {
     width: 230px;
     height: 200px;
     margin-left: 10px;
     border-radius: 10px;
 }
-th,td{
-border: 2px solid black;
+
+th,
+td {
+    border: 2px solid black;
 }
-/* CV mariéme*/
-.cv-container div img{
+
+/* CV cheikh*/
+.cv-container div img {
     width: 230px;
     height: 200px;
 }
+
 /* CV mariéme*/
 
 #page {
@@ -116,7 +174,7 @@ border: 2px solid black;
     width: 200px;
     height: 300px;
     float: left;
-    margin-right:10px;
+    margin-right: 10px;
     margin-top: 20px;
 }
 
@@ -125,10 +183,12 @@ border: 2px solid black;
     display: inline-block;
     font-size: 35px;
 }
-.metier{
+
+.metier {
     display: inline-block;
     width: 100%;
 }
+
 .photo {
     display: flex;
     flex-direction: column;
@@ -144,10 +204,12 @@ border: 2px solid black;
     padding: 5px;
     font-size: 20px;
 }
-#profil h3{
+
+#profil h3 {
     color: #27aae1;
 }
-#profil{
+
+#profil {
     font-size: 25px;
     border: 1px solid #d3d3d3;
     padding: 5px;
@@ -155,9 +217,10 @@ border: 2px solid black;
     color: #000;
 }
 
-#education h3{
+#education h3 {
     color: #27aae1;
 }
+
 #education {
     font-size: 25px;
     border: 1px solid #d3d3d3;
@@ -166,106 +229,72 @@ border: 2px solid black;
     margin: 30px 0 10px;
     color: #000;
 }
-#header2{
+
+#header2 {
     display: flex;
 }
-#competence h3{
+
+#competence h3 {
     color: #27aae1;
     font-size: 25px;
 }
-#competence table{
-    color:black;
-    font-size: 25px;
-    }
 
-#bio{
+#competence table {
+    color: black;
+    font-size: 25px;
+}
+
+#bio {
     color: #000;
     float: right;
     font-size: 25px;
     margin-top: 70px;
 }
-ul{
+
+ul {
     font-size: 25px;
     color: #000;
 }
 
 
 /*formulaire de contacte*/
-.div_form{
+.div_form {
     width: 50%;
     height: 70%;
     display: flex;
     justify-content: center;
     margin: 1% 25%;
     font-size: 30px;
-    background-color:#c79c0f;
+    background-color: #c79c0f;
     border-radius: 10px;
 }
 
-input{
-    font-size: 20px;  
+input {
+    font-size: 20px;
 }
-button{
+
+button {
     font-size: 25px;
     background-color: #a3800d;
     border: 3px solid black;
- }
-/*main accueil*/
-      .presentation  {
-    float: left;
-    width: 27%;
-    padding-left: 10px;
-    padding-top: 100px;
-    margin: 15px  50px ;
-    height: 300px;
-    background-color: #c79c0f;
-    border-radius: 10px;
-    }
-    .presentationG {
-    display: flex;
-    flex-wrap: wrap;
-    width: 60%;
-    padding-left: 10px;
-    margin: 60px;
-    background-color: #c79c0f;
-    border-radius: 10px;
-      }
-    .membre {
-    width: 44%;
-    height: 180px;
-    display: flex;
-    background-color: #a3800d;
-    border-radius: 10px;
-    margin: 20px 20px;
-    }
-    .membre img
-    {
-    width: 40%;
-    height: 100%;
-    border-radius: 10px;
-    }
+}
 
-    .membre p
-    {
-   text-align: center;
-   font-size: 20px;
-    }
 
 /* pied de page*/
-.div_footer{
+.div_footer {
     width: 100%;
-   display: flex;
-   flex-wrap: wrap;
-   gap: 100px;
-   padding: 10px;
-   background-color:black   ;
-   color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 10px;
+    background-color: black;
+    color: white;
 }
-.logo_footer{
+
+.logo_footer {
     width: 100px;
     height: 50px;
     border-radius: 10px;
     margin: 20px 100px;
-   
-}
 
+}
